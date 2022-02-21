@@ -26,6 +26,4 @@ if __name__ == "__main__":
     #Insert your coordinates from google maps here
     lat2, lon2 = 52.513169, 13.453457
     distance = haversine(lon1, lat1, lon2, lat2)
-    print('see it works')
     print(distance)
-
