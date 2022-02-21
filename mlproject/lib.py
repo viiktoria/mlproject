@@ -7,5 +7,5 @@ def hello_world():
 def try_me():
     X, y = make_blobs(n_samples=2000, centers=5, n_features=6, random_state=6)
     scatter = sns.scatterplot(x = X[:,0],y = X[:,1], c=y)
-    print('scatter')
+    print(scatter)
     return scatter
